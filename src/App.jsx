@@ -30,6 +30,11 @@ const App = () => {
   return (
     <div>
       <h1>Alan AI News</h1>
+      <ul>
+        <li>What does this app do?</li>
+        <li>What can I do here?</li>
+        <li>Give me the news from $(BBC news|techcrunch)</li>
+      </ul>
       <NewsCards articles={newsArticles} />
     </div>
   )
