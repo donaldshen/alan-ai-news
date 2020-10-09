@@ -15,6 +15,7 @@
     "words-to-numbers": "^1.5.1"
   },
   "scripts": {
+    "install2": "YARN_REGISTRY=https://registry.yarnpkg.com/ yarn",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
